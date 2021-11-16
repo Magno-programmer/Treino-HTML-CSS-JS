@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários Brasil</title>
+</head>
+<body>
+    <div id="titulo"><h1>Formulário Brasil</h1></div> <!--Titulo do formulário-->
+    <main>
+        <h2>Mostre-nos seu grau de conhecimento</h2>
+        <p>(locais com * são obrigatórios o preenchimento)</p>
+        <div class="input"><!--Preenchimento do nome do usuário-->
+            <label>*Nome:</label>
+            <input type="text" id="nome">
+        </div>
+        <div class="input"><!--Preenchimento do email do usuário-->
+            <label>*Email:</label>
+            <input type="text" id="email">
+        </div>
+        <div class="input"><!--Preenchimento da idade do usuário-->
+                <label>*Idade:</label>
+                <input type="number" id="idade">
+        </div>
+        <div class="selection"><!--Seleção do grau de formação do usuário-->
+            <label>*Selecione aqui seu grau de formação:</label>
+            <select name="formacao" id="formacao">
+                <option value="fundamental">Fundamental</option>
+                <option value="ensinoMedio">Ensino Médio</option>
+                <option value="graduacao">Graduação</option>
+                <option value="posGraduacao">Pós-Graduação</option>
+            </select>
+    
+        </div>
+        <div class="estudo"><!--Seleção do tipo de formação do usuário-->
+           <p>*Selecione seu tipo de formação:</p>
+            <input type="checkbox" id="tecnologo">
+            <label>Tecnólogo</label>
+            <br>
+            <input type="checkbox" id="biologo">
+            <label>Biólogo</label>
+            <br>
+            <input type="checkbox" id="quimico">
+            <label>Químico</label>
+            <br>
+            <input type="checkbox" id="fisico">
+            <label>Físico</label>
+        </div>
+        <div class="contato"> <!--Pergunta se quer entrar em contato-->
+            <label>Deseja que entremos em contato?</label>
+            <input type="checkbox">Sim
+            <input type="checkbox">Não
+        </div>
+        <div class="genero"><!--Seleção sobre o gênero sexual-->
+            <label>Nos diga seu gênero sexual:</label>
+            <select id="tipoSexual">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            <input type="checkbox">Prefiro não citar
+        </div>
+    </main>
+    <strong><em>*Obrigado por participar*</em></strong>
+</body>
+</html>
