@@ -8,9 +8,8 @@ main{
     margin-top: 0;
 }
 a{
-    position: relative;
-    left: 80%;
-    top: -60px;
+    display: flex;
+    
 }
 main p{
     font: bolder 5.5rem serif ;
@@ -18,110 +17,12 @@ main p{
     color: rgb(37, 102, 163);
 }
 
-#yt{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 143px;
-    top: 30px;
-}
-#insta{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 260px;
-    top: -4px;
-}
-#lkn{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 390px;
-    top: -38px;
-}
-#face{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 515px;
-    top: -72px;
-}
-#whats{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 133px;
-    top: -2px;
-}
-#spo{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 268px;
-    top: -35px;
-}
-#tt{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 390px;
-    top: -69px;
-}
-#sky{
-    font: bolder 1rem serif;
-    position: relative;
-    left: 524px;
-    top: -100px;
-}
-
-
-.img #youtube {
-    width: 40px;
-    position: relative;
-    top: 430px;
-    right: 450px;
-}
-.img #instagram {
-    width: 40px;
-    position: relative;
-    top: 430px;
-    right: 590px;
-}
-.img #linkedin {
-    width: 40px;
-    position: relative;
-    top: 430px;
-    right: 420px;
-}
-.img #facebook {
-    width: 40px;
-    position: relative;
-    top: 430px;
-    right: 380px;
-}
-.img #whatsapp {
-    width: 40px;
-    position: relative;
-    top: 530px;
-    right: 495px;
-}
-.img #spotify {
-    width: 40px;
-    position: relative;
-    top: 530px;
-    right: 460px;
-}
-.img #twitter {
-    width: 40px;
-    position: relative;
-    top: 530px;
-    right: 290px;
-}
-.img #skype {
-    width: 40px;
-    position: relative;
-    top: 530px;
-    right: 250px;
-}
 
 .traco{
     width: 20px;
-    padding-left: 95%;
     position: relative;
     top: 5px;
+    left: 90%;
 }
 main input{
     width: 500px;
