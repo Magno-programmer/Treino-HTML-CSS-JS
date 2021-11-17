@@ -2,4 +2,4 @@
 
 - só pra brincar kkkkkk
 
-![Google - Google Chrome](https://user-images.githubusercontent.com/83795938/142090946-e51db463-4b94-481c-8f95-c04f9104a9c6.png)
+![Google - Google Chrome](https://user-images.githubusercontent.com/83795938/142091153-897751df-2f2f-4253-a9b8-ef3cc7286215.png)
